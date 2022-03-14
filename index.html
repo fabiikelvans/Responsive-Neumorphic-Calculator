@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Responsive Neumorphic Calculator </title>
+    
+    <meta name="description" content="Responsive Neumorphic Calculator using Vanilla JS">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="Responsive Neumorphic Calculator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/fabiikelvans">
+    <meta property="og:description" content="Responsive Neumorphic Calculator using Vanilla JS.">
+    <meta property="og:image" content="preview.png">
+
+    <!----------- FAVICON ------------>
+    <link rel="icon" href="assets/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+
+    <!----------- IONICONS ------------>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!----------- MAIN CSS ------------>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+  
+
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="output-screen">
+            <button onclick="Clear()">Cl</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="display('%')">%</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="Calculate()" class="equal">=</button>
+        </div>
+    </div>
+
+     <!----------- MAIN JS ------------>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
